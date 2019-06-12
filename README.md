@@ -32,7 +32,8 @@ Being aware of different training and test settings.
 - <a name="todo"></a> Rotate your Networks: Better Weight Consolidation and Less Catastrophic Forgetting (R-EWC) (**ICPR2018**) [[paper](https://arxiv.org/abs/1802.02950)] [[code](https://github.com/xialeiliu/RotateNetworks)]
 - <a name="todo"></a> Exemplar-Supported Generative Reproduction for Class Incremental Learning  (**BMVC2018**) [[paper](http://bmvc2018.org/contents/papers/0325.pdf)] [[code](https://github.com/TonyPod/ESGR)]
 - <a name="todo"></a> DeeSIL: Deep-Shallow Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/pdf/1808.06396.pdf)] 
-- <a name="todo"></a> **NewClass** End-to-End Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/abs/1807.09536)][[code](https://github.com/fmcp/EndToEndIncrementalLearning)]
+- <a name="todo"></a> **Important!!** End-to-End Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/abs/1807.09536)][[code](https://github.com/fmcp/EndToEndIncrementalLearning)]
+>虽然深度学习方法近年来由于其最先进的结果而脱颖而出，但它们仍然遭受灾难性的遗忘，在逐步增加新课程的培训时，整体表现急剧下降。这是由于当前的神经网络架构需要整个数据集，包括来自旧类和新类的所有样本，以更新模型 - 随着类数量的增加，这一要求变得容易不可持续。我们通过逐步学习深度神经网络的方法来解决这个问题，使用新数据并且只使用与旧类中的样本相对应的小样本集。这是基于由蒸馏措施组成的损失，以保留从旧类中获得的知识，以及用于学习新类的交叉熵损失。我们的增量训练是在保持整个框架端到端的同时实现的，即共同学习数据表示和分类器，而不像最近没有这种保证的方法。我们在CIFAR-100和ImageNet（ILSVRC 2012）图像分类数据集上广泛评估我们的方法，并展示最先进的性能。
 - <a name="todo"></a> Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence (**ECCV2018**)[[paper](http://arxiv-export-lb.library.cornell.edu/abs/1801.10112)] 
 - <a name="todo"></a> Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights (**ECCV2018**) [[paper](https://arxiv.org/abs/1801.06519)] [[code](https://github.com/arunmallya/piggyback)]
  - <a name="todo"></a> Memory Aware Synapses: Learning what (not) to forget (**ECCV2018**) [[paper](https://arxiv.org/abs/1711.09601)] [[code](https://github.com/rahafaljundi/MAS-Memory-Aware-Synapses)]
