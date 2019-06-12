@@ -15,6 +15,7 @@ Being aware of different training and test settings.
 ## Papers
 ### 2019
 - <a name="todo"></a> Large Scale Incremental Learning (**CVPR2019**) [[paper](https://arxiv.org/abs/1905.13260)] 
+>现代机器学习在逐步学习新类别时遭受灾难性遗忘。由于缺少旧类的数据，性能急剧下降。已经提出了增量学习方法来保留从旧类中获得的知识，通过使用知识提取并保留旧类中的一些示例。但是，这些方法难以扩展到大量类。我们认为这是因为两个因素的结合：（a）新旧类别之间的数据不平衡，以及（b）视觉上相似类别的数量不断增加。当训练数据不平衡时，区分越来越多的视觉上相似的类别是特别具有挑战性的。我们提出了一种简单有效的方法来解决这一数据不平衡问题。我们发现最后一个完全连接的层对新类具有强烈的偏差，并且这种偏差可以通过线性模型来校正。通过两个偏差参数，我们的方法在两个大型数据集上表现非常出色：ImageNet（1000类）和MS-Celeb-1M（10000类），分别优于最新算法
 - <a name="todo"></a> Learning to Remember: A Synaptic Plasticity Driven Framework for Continual Learning (**CVPR2019**) [[paper](https://arxiv.org/abs/1904.03137)] 
 - <a name="todo"></a> Task-Free Continual Learning (**CVPR2019**) [[paper](https://arxiv.org/pdf/1812.03596.pdf)]
 - <a name="todo"></a> Learn to Grow: A Continual Structure Learning Framework for Overcoming Catastrophic Forgetting (**ICML2019**) [[paper](https://arxiv.org/abs/1904.00310)]
