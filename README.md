@@ -15,6 +15,7 @@ Being aware of different training and test settings.
 ## Papers
 ### 2019
 - <a name="todo"></a> Large Scale Incremental Learning (**CVPR2019**) [[paper](https://arxiv.org/abs/1905.13260)] 
+>现代机器学习在逐步学习新类别时遭受灾难性遗忘。由于缺少旧类的数据，性能急剧下降。已经提出了增量学习方法来保留从旧类中获得的知识，通过使用知识提取并保留旧类中的一些示例。但是，这些方法难以扩展到大量类。我们认为这是因为两个因素的结合：（a）新旧类别之间的数据不平衡，以及（b）视觉上相似类别的数量不断增加。当训练数据不平衡时，区分越来越多的视觉上相似的类别是特别具有挑战性的。我们提出了一种简单有效的方法来解决这一数据不平衡问题。我们发现最后一个完全连接的层对新类具有强烈的偏差，并且这种偏差可以通过线性模型来校正。通过两个偏差参数，我们的方法在两个大型数据集上表现非常出色：ImageNet（1000类）和MS-Celeb-1M（10000类），分别优于最新算法
 - <a name="todo"></a> Learning to Remember: A Synaptic Plasticity Driven Framework for Continual Learning (**CVPR2019**) [[paper](https://arxiv.org/abs/1904.03137)] 
 - <a name="todo"></a> Task-Free Continual Learning (**CVPR2019**) [[paper](https://arxiv.org/pdf/1812.03596.pdf)]
 - <a name="todo"></a> Learn to Grow: A Continual Structure Learning Framework for Overcoming Catastrophic Forgetting (**ICML2019**) [[paper](https://arxiv.org/abs/1904.00310)]
@@ -31,7 +32,8 @@ Being aware of different training and test settings.
 - <a name="todo"></a> Rotate your Networks: Better Weight Consolidation and Less Catastrophic Forgetting (R-EWC) (**ICPR2018**) [[paper](https://arxiv.org/abs/1802.02950)] [[code](https://github.com/xialeiliu/RotateNetworks)]
 - <a name="todo"></a> Exemplar-Supported Generative Reproduction for Class Incremental Learning  (**BMVC2018**) [[paper](http://bmvc2018.org/contents/papers/0325.pdf)] [[code](https://github.com/TonyPod/ESGR)]
 - <a name="todo"></a> DeeSIL: Deep-Shallow Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/pdf/1808.06396.pdf)] 
-- <a name="todo"></a> End-to-End Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/abs/1807.09536)][[code](https://github.com/fmcp/EndToEndIncrementalLearning)]
+- <a name="todo"></a> **Important!!** End-to-End Incremental Learning (**ECCV2018**) [[paper](https://arxiv.org/abs/1807.09536)][[code](https://github.com/fmcp/EndToEndIncrementalLearning)]
+>虽然深度学习方法近年来由于其最先进的结果而脱颖而出，但它们仍然遭受灾难性的遗忘，在逐步增加新课程的培训时，整体表现急剧下降。这是由于当前的神经网络架构需要整个数据集，包括来自旧类和新类的所有样本，以更新模型 - 随着类数量的增加，这一要求变得容易不可持续。我们通过逐步学习深度神经网络的方法来解决这个问题，使用新数据并且只使用与旧类中的样本相对应的小样本集。这是基于由蒸馏措施组成的损失，以保留从旧类中获得的知识，以及用于学习新类的交叉熵损失。我们的增量训练是在保持整个框架端到端的同时实现的，即共同学习数据表示和分类器，而不像最近没有这种保证的方法。我们在CIFAR-100和ImageNet（ILSVRC 2012）图像分类数据集上广泛评估我们的方法，并展示最先进的性能。
 - <a name="todo"></a> Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence (**ECCV2018**)[[paper](http://arxiv-export-lb.library.cornell.edu/abs/1801.10112)] 
 - <a name="todo"></a> Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights (**ECCV2018**) [[paper](https://arxiv.org/abs/1801.06519)] [[code](https://github.com/arunmallya/piggyback)]
  - <a name="todo"></a> Memory Aware Synapses: Learning what (not) to forget (**ECCV2018**) [[paper](https://arxiv.org/abs/1711.09601)] [[code](https://github.com/rahafaljundi/MAS-Memory-Aware-Synapses)]
